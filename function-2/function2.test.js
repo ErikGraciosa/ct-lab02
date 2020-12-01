@@ -11,4 +11,10 @@ describe('copy array and push to end of array function', () => {
     expect(copyAndPush(anotherArr, 'Jim')).toEqual([1, 2, 3, 4, 'Jim']);
   });
 
+  it('test will confirm the original array is unchanged', () => {
+    anotherArr = [1, 2, 3, 4]
+    copyAndPush(anotherArr, 'Jim')
+    expect(anotherArr).toEqual([1, 2, 3, 4]);
+  });
+
 });
