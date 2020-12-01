@@ -1,0 +1,1 @@
+Writing some functions and tests and establishing git repo from command line.
