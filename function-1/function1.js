@@ -1,5 +1,5 @@
 const getName = (object) => {
-    return 'Aang';
+    return object['name'];
 }
 
 module.exports = { getName }
